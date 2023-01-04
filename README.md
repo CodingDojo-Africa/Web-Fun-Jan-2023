@@ -1,7 +1,7 @@
 # Web-Fun-Jan-2023
 
 
-## clone/fork this repo, then `git pull` to get the latest changes
+## `fork` ==> `code` ==> `copy code` , then `clone and paste the link this repo` 
 
 <br/>
 
