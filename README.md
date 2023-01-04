@@ -1,7 +1,7 @@
 # Web-Fun-Jan-2023
 
 
-## `fork` ==> `code` ==> `copy code` , then `clone and paste the link this repo` 
+## `fork` ==> `code` ==> `copy <> Code` , then `clone and paste the link this repo` 
 
 <br/>
 
