@@ -1,8 +1,11 @@
 # Web-Fun-Jan-2023
 
 
-## `fork` ==> `code` ==> `copy <> Code` , 
-## then Open `GIT` ==> `git clone [ paste the link this repo](https://github.com/CodingDojo-Africa/Web-Fun-Jan-2023.git)` 
+## Step 1 : `fork` 🍴
+## Step 2 : `code` 📜
+## Step 3 : `copy <> Code`  ©️
+## Step 4 :then Open `GIT` 🏳️‍⚧️
+## Final Step :==> `git clone [ paste the link this repo](https://github.com/CodingDojo-Africa/Web-Fun-Jan-2023.git)` 🤝
 
 <br/>
 
