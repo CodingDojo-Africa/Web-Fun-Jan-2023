@@ -1,7 +1,7 @@
 # Web-Fun-Jan-2023
 
 
-## `fork` ==> `code` ==> `copy <> Code` , then Open `GIT` `git clone  paste the link this repo` 
+## `fork` ==> `code` ==> `copy <> Code` , then Open `GIT` `git clone [ paste the link this repo](https://github.com/CodingDojo-Africa/Web-Fun-Jan-2023.git)` 
 
 <br/>
 
