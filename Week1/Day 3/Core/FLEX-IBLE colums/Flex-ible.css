@@ -1,0 +1,27 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.col{
+    padding: 30px;
+    margin: 30px;
+    height: 100px;
+    background-color: blue;
+    flex: 1;
+}
+.col-2{
+    padding: 30px;
+    margin: 30px;
+    height: 100px;
+    background-color: rgb(51, 255, 0);
+    flex: 2;
+}
+.col-3{
+    padding: 30px;
+    margin: 30px;
+    height: 100px;
+    background-color: rgb(251, 255, 0);
+    flex: 3;
+}
