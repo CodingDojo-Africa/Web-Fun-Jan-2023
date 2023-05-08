@@ -1,0 +1,334 @@
+.container{
+
+    display: flex;
+    flex-direction: column;
+    font-family: 'Concert One', cursive;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.nav{
+    background-color: rgb(70, 71, 78);
+    height: 70px;
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 1px;
+    margin-bottom: 10px;
+
+}
+.nav-title{
+    color:aliceblue;
+    margin-left: 20px;
+}
+.nav-links{
+    font-family: 'Concert One', cursive;
+    display: flex;
+    justify-content: space-between;
+} 
+.nav-links > div > a{
+    color: aliceblue;
+    font-family: 'Concert One', cursive;
+}
+#link1{
+    width: 50px;
+}
+#link2{
+    width: 90px;
+}
+#link3{
+    width: 140px;
+}
+.btn{
+    font-family: 'Concert One', cursive;
+    background-color: rgb(60, 112, 223);
+    color: aliceblue;
+    width: 100px;
+    height: 25px;
+    margin-right: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 2px 1px black;
+}
+
+.body{
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.col1{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.col2{
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.card{
+    
+    width: 600px;
+    height: 400px;
+    border: 2px solid rgb(131, 135, 136);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        
+}
+.col-1{
+    background-color: rgb(0, 162, 255);
+    width: 600px;
+    height: 130px;
+    flex: 1;
+}
+.col-2{
+    width: 600px;
+    height: 130px;
+    flex: 2;
+    font-family: 'Concert One', cursive;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.col-3{
+    margin-left: 40px;
+    width: 600px;
+    height: 130px;
+    flex: 3;
+    font-family: 'Concert One', cursive;
+}
+.imgprofile{
+    width: 100px;
+    height: 100px;
+    margin-top: 75px;
+    margin-left: 50px;
+    border-radius: 100%;
+    border: 2px solid grey;
+}
+.imgps{
+   margin-right: 20px;
+    width: 20px;
+    height: 30px;
+}
+.imgear{
+    margin-right: 20px;
+     width: 30px;
+     height: 30px;
+ }
+
+#loc{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#lien{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bloc1{
+    border: 2px solid gray;
+    width: 300px;
+    height: 200px;
+    
+}
+
+#bloc11{
+    height:50px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    /* justify-content: space-evenly; */
+    background-color: rgb(27, 26, 26);
+    color: aliceblue;
+}
+#c2{
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    text-align:center;
+    background-color: gray;
+    color: aliceblue;
+    
+}
+#bloc12{
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+}
+
+#todd{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: inline-baseline;
+    margin-bottom: 20px;;
+    
+}
+#todd>img{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#todd>p{
+    margin-top: 10px;
+}
+
+#phil{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: inline-baseline;
+    
+}
+#phil>img{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.bloc2{
+    border: 1px solid gray;
+    width: 300px;
+    /* height: 800px; */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.bloc21{
+    background-color: rgb(27, 26, 26);
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: baseline;
+    color: aliceblue;
+    border: 1px solid gray;
+
+}
+.bloc21>h4{
+    margin-left: 20px;
+    background-color: gray;
+    border-radius: 100%;
+    text-align: center;
+    width: 50px;
+}
+.bloc22{
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+}
+#adrien{
+    padding-left: 20px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+#adrien>img{
+    margin-right: 40px;
+    display: inline-block;
+    width:40px;
+    height: 40px;
+    border-radius: 100%;
+}
+#anne{
+    padding-left: 20px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+#anne>img{
+    margin-right: 40px;
+    display: inline-block;
+    width:40px;
+    height: 40px;
+    border-radius: 100%;
+}
+#alayne{
+    padding-left: 20px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+#alayne>img{
+    margin-right: 40px;
+    display: inline-block;
+    width:40px;
+    height: 40px;
+    border-radius: 100%;
+}
+#arry{
+    padding-left: 20px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+#arry>img{
+    margin-right: 40px;
+    display: inline-block;
+    width:40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.bloc23{
+    border: 1px solid gray;
+    height: 30px;
+}
+.bloc23>a{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.education{
+    border: 2px solid gray;
+    width: 600px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.ed1{
+    height: 60px;
+    background-color: rgb(27, 26, 26);
+    color: aliceblue;
+}
+.ed1>h3{
+    margin-left: 20px;
+}
+.ed2>h4{
+    margin-left: 20px;
+}
+.ed2>h5{
+    margin-left: 20px;
+}
+.ed2>p{
+    margin-left: 20px;
+    color: rgb(145, 142, 142);
+}
