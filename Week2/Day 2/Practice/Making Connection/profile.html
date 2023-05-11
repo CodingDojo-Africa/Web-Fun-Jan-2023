@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="profile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h1 class="nav-title">Profile</h1>
+            <div class="nav-links">
+                <div id="link1"><a href="#">Home</a></div>
+                <div id="link2"><a href="#" class="active">My Profile</a></div>
+                <div id="link3"><a href="#">Find Connections</a></div>
+                <div><button class="btn">Sign Out</button></div>
+            </div>
+        </div>   
+      
+        <div class="body">
+           <div class="col1">
+                <div class="card">
+                    <div class="col-1"><img class="imgprofile" src="jane-m.jpg" alt="face"></div>
+                        <div class="col-2">
+                            <div><h1 id="changing">Jane Doe</h1></div>
+                            <div id="loc"><img src="map-marker.png" class="imgps" alt="location"><h3>Seattle</h3></div>
+                        </div>
+                        <div class="col-3">
+                            <p>Developer | Engineer | Problem Solver</p>
+                            <p>Master of shadows and th Internet!</p>
+                            <p id="lien"><img src="gear.png" class="imgear" alt="geat">
+                            <a href="#" onclick=changeuser(this) >edit profile</a></p>
+                        </div>
+                    </div>
+                
+                <div class="education">
+                    <div class="ed1"><h3>Education</h3></div>
+                    <div class="ed2">
+                        <h4>Coding Dojo - Full stack bootcamp</h4>
+                        <p>Dec 2019 - Mar 2020</p>
+                        <h5>Triple black belt in Python, MERN, and C#...</h5>
+                    </div>
+                </div>
+            </div>    
+            <div class="col2">
+            <div class="bloc1">
+                    <div id="bloc11">
+                        
+                        <h4 id="c2">2</h4>
+                        <P id="con">Connection Requests</P>
+                    </div>
+                    <div id="bloc12">
+                        <DIV id="todd">
+                            <img src="todd-s.jpg" alt="todd">
+                            <p>Todd E</p>
+                            <img  src="accept-circle.png" alt="imgaccept" onclick=increases(this) >
+                            <img  src="close-circle.png" alt="imgclose" onclick=remove(this)>
+                        </DIV>
+                        <div id="phil">
+                            <img  src="phil-s.jpg" alt="phil">
+                            <p>Phil K</p>
+                            <img  src="accept-circle.png" alt="imgaccept" onclick=increases1(this) >
+                            <img  src="close-circle.png" alt="imgclose" onclick=remove1(this)>
+                        </div>
+                                                
+                    </div>
+            </div>
+            <div class="bloc2">
+                    <div class="bloc21">
+                        <h4 id="incr">500</h4>
+                        <p>Your Connections</p>
+                    </div>
+                    <div class="bloc22">
+                        <div id="adrien"><img src="adrien-s.jpg" alt="adrien"><p>Adrien D</p></div>
+                        <div id="anne"><img src="anne-s.jpg" alt="anne"><p>Anne J</p></div>
+                        <div id="alayne"><img src="alayne-s.jpg" alt="alayne"><p>Alayne T</p></div>
+                        <div id="arry"><img src="arry-s.jpg" alt="arry"><p>Arry Y</p></div>
+                    </div>
+                    <div class="bloc23">
+                        <a href="#" >View More</a>
+                    </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="profile.js"></script>
+</body>
+</html>
