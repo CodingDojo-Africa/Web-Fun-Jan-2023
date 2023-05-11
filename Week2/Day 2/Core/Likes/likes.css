@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#nav-bar{
+    height: 60px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+#feed{
+    height: 60px;
+    text-align: center;
+}
+
+.Neiluser{
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    width:500px;
+    height: 200px;
+}
+.Nicholeuser{
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    width:500px;
+    height: 200px;
+}
+.Jimuser{
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    width:500px;
+    height: 200px;
+}
+
+#title{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#title>button{
+    width: 70px;
+    height: 30px;
+    color: #fff;
+    background-color: rgb(223, 223, 91);
+    box-shadow: 5px 5px 5px black;
+    margin-top: 10px;
+    margin-right: 10px; ;
+}
+.Naleuser>h4{
+   margin-left: 10px;
+}
+.Page{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 50px;
+
+    justify-content: space-around;
+    align-items: center;
+    /* margin-left: 80px; */
+}
+.Part1{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+
+}
+img{
+    width: 50px;
+    height: 50px;
+    margin-left: 80px;
+}
