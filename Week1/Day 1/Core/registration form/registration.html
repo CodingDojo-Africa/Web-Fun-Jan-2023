@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form>
+        <h1>Registration Form</h1>
+        <div>
+            <label>First Name:*</label>
+            <input type="text" name="firstname" placeholder="Your first name....">
+        </div>
+        <div>
+            <label>Last Name:*</label>
+            <input type="text" name="lastname" placeholder="Your last name....">
+        </div>
+        <div>
+            <label>Email address:*</label>
+            <input type="text" name="email" placeholder="Your Email....">
+        </div>
+        <div>
+            <label>Password:*</label>
+            <input type="password" name="password" placeholder="Your password....">
+        </div>
+        <div>
+            <label>confirm Password:*</label>
+            <input type="password" name="confirmpassword" placeholder="Your password....">
+        </div>
+        <div>
+            <label>Birthday:*</label>
+            <input type="date" name="birthday" placeholder="Your date of birthday....">
+        </div>
+        <div>
+            <p>Gender identity</p>
+            <input type="radio" name="male" value="male" id="male" >
+            <label for="male">Male</label>
+            <input type="radio" name="female" value="female" id="female" >
+            <label for="female">Female</label>
+            <input type="radio" name="nonbinary" value="nonbinary" id="nonbinary" >
+            <label for="nonbinary">Non-binary</label>
+            <input type="radio" name="prefer" value="prefer" id="prefer" >
+            <label for="prefer">I prefer not to answer</label>
+        </div>
+        <div>
+            <p>A short description about myself:</p>
+            <textarea name="description" cols="30" rows="4"></textarea>
+        </div>
+        <div>
+            <label>Favorite Language: </label>
+            <select name="select">
+                <option value="javascript">JavaScript</option>
+                <option value="python">Python</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="emailupdates" id="emailupdates">
+            <label for="emailupdates">Yes, I would like to receive periodic email updates</label>
+        </div>
+        <div>
+                <input type="submit" value="Create Account">
+        </div>
+        <p>* Indicates a required field</p>
+
+    </form>
+    
+</body>
+</html>

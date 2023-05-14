@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="Dojoweather.css">
+</head>
+<body class="body">
+    
+        <!-- bar to navigation on city -->
+        <div class="navigation flex">
+            <h1>DojoWeather</h1>
+            <ul class="listcity" onclick="appalert(this)">
+                <li>Burbank</li>
+                <li>Chicago</li>
+                <li>Dallas</li>
+            </ul>
+        </div>
+        <!-- the page of information Weather-->
+        <div class="page">
+            <!-- first part of page: display the cityWeather -->
+            <div class="title">
+                <div><h1>San Jose</h1></div>
+                <div class="temperature">
+                    <p>show temperature in</p>
+                    <select id="option" alt="temperature" onchange="change(this)">
+                        <option>°C</option>
+                        <option>°F</option>
+                    </select>
+                </div>
+            </div>
+            <!-- the lign of the weather content  -->
+            <div class="thedays">
+                <!-- display day1 -->
+                <div class="day">
+                    <h1>Today</h1>
+                    <img src="assets/some_rain.png" alt="rain">
+                    <p>some rain</p>
+                    <div id="space">
+                        <h3 id="c1" class="tem1">24°</h3>
+                        <h3 id="c2" class="tem2">18°</h3>
+                    </div>
+                </div>
+                <!-- display day2 -->
+                <div class="day">
+                    <h1>Tomorrow</h1>
+                    <img src="assets/some_sun.png" alt="rain">
+                    <p>some sun</p>
+                    <div id="space">
+                        <h3 id="c1" class="tem3">27°</h3>
+                        <h3 id="c2" class="tem4">19°</h3>
+                    </div>
+                </div>
+                <!-- display day3 -->
+                <div class="day">
+                    <h1>Friday</h1>
+                    <img src="assets/some_clouds.png" alt="rain">
+                    <p>some clouds</p>
+                    <div id="space">
+                        <h3 id="c1" class="tem5">21°</h3>
+                        <h3 id="c2" class="tem6">16°</h3>
+                    </div>
+                </div>
+                <!-- display day4 -->
+                <div class="day">
+                    <h1>saturday</h1>
+                    <img src="assets/some_sun.png" alt="rain">
+                    <p>some sun</p>
+                    <div id="space">
+                        <h3 id="c1" class="tem7">26°</h3>
+                        <h3 id="c2" class="tem8">21°</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- column for cookies page -->
+            <div class="cookie">
+                <img src="assets/cookie.png">
+                <span>
+                    <h1>Stop!Cookie time</h1>
+                    <p>We use cookies (sadly not the edible ones) to personalize</p>
+                    <p>content and ads, to provide social media features and to</p>
+                    <p>analyse our traffic.<a href="#">Read more...</a></p>
+                </span>
+                <button onclick="supp()">I Accept</button>
+            </div>    
+    
+        </div>
+        
+    
+    <script src="Dojoweather.js"></script>
+</body>
+</html>

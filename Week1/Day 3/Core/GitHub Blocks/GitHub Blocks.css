@@ -1,0 +1,56 @@
+.container {
+    background-color: rgb(223, 219, 230);
+    border: 20px;
+    padding: 20px;
+    
+}
+h1{
+    color: rgb(2, 0, 0);
+    text-align: center;
+    font-size: 50px;
+}
+#block1 {
+    background-color: rgb(0, 204, 255);
+    width: 820px;
+    height: 204px;
+    margin: 8px;
+}
+#img1{
+    margin-left: 52px;
+    margin-top: 12px;
+}
+#img2{
+    margin-left: 52px;
+    margin-right: 52px;
+    margin-top: 12px;
+}
+#img3{
+    margin-right: 52px;
+    margin-top: 12px;
+}
+
+#block2 {
+    background-color: rgb(247, 173, 250);
+    width: 820px;
+    height: 204px;
+    margin: 8px;   
+    display: flex;
+    justify-content: space-around;
+}
+#img21{
+    margin-top: 12px;
+}
+#img22{
+    margin-bottom: 12px;
+}
+#block3 {
+    background-color: rgb(255, 255, 255);
+    width: 820px;
+    height: 204px;
+    margin: 8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#block3 > img{
+    margin-top: 12px;
+}

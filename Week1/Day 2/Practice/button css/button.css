@@ -1,0 +1,31 @@
+
+.search{
+    background-color: rgb(243, 242, 242);
+    color: rgb(27, 180, 134);
+    font-size: 18px;
+    width: 150px;
+    height: 30px;
+    margin: 1%;
+    border: 1px solid rgb(27, 180, 134);
+    border-radius: 20px ;
+}
+.plus {
+    background-color: rgb(27, 180, 134);
+    color: aliceblue;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    margin: 1%;
+    border: 0px;
+    border-radius: 50px;
+}
+.account{
+    background-color: rgb(0, 102, 255);
+    color: aliceblue;
+    font-size: 15px;
+    width: 150px;
+    height: 30px;
+    margin: 1%;
+    border: 2px solid black;
+    box-shadow: 5px 5px 2px 1px black;
+}

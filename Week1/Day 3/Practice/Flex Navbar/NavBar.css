@@ -1,0 +1,42 @@
+.nav{
+    background-color: rgb(70, 71, 78);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav-title{
+    color:aliceblue;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.nav-links > div > a{
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+#link1{
+    width: 50px;
+}
+#link2{
+    width: 90px;
+
+}
+#link3{
+    width: 140px;
+}
+.btn{
+    background-color: rgb(60, 112, 223);
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    width: 100px;
+    height: 25px;
+    margin-right: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 2px 1px black;
+}
